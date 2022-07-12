@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ubuntu {
+  font-family: "Ubuntu" !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --default-green:  85, 57%, 55%;
+  --saturated-green: 85, 82%, 55%;
+  --light-black: 	1000, 0%, 70%;
+  --text-gray: 0, 0%, 93%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: hsl(var(--light-black));
+}
+
+body, button,
+h1, h2, h3, h4, h4, h5,
+input, textarea {
+  font-family: 'Montserrat', sans-serif;
+}

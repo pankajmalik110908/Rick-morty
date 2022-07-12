@@ -1,0 +1,16 @@
+.l-head {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+.card {
+  border: 2px solid #0b5ed7;
+}
+.content {
+  padding: 10px;
+}
+.badge {
+  top: 10px;
+  right: 20px;
+  font-size: 17px;
+}
